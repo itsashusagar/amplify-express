@@ -1,0 +1,43 @@
+{
+  "api": {
+    "api81d28bb8": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "amplifyexpress99227ca4"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "amplifyexpress99227ca4": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_amplifyexpress99227ca4_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "amplifyexpress99227ca4"
+        }
+      ]
+    },
+    "AMPLIFY_function_amplifyexpress99227ca4_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "amplifyexpress99227ca4"
+        }
+      ]
+    }
+  }
+}
